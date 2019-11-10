@@ -1,0 +1,61 @@
+#Models: 5
+ID 0 
+FILE Models/woman1.nfg
+ID 1
+FILE Models/SkyBox.nfg
+ID 2
+FILE Models/Terrain.nfg	
+ID 3
+FILE Models/b_yasuo.obj
+ID 4
+FILE Models/woman2.nfg
+
+
+#2D Textures: 6
+ID 0
+FILE textures/woman1.tga
+TILING REPEAT
+ID 1
+FILE textures/waternormal.tga
+TILING REPEAT
+ID 2
+FILE textures/dirt.tga
+TILING REPEAT
+ID 3
+FILE textures/Rock.tga
+TILING REPEAT
+ID 4
+FILE textures/woman2.tga
+TILING REPEAT
+ID 5
+FILE textures/b_yasuo.tga
+TILING REPEAT
+
+#Cube Textures: 1
+ID 2
+FILE textures/left.tga
+FILE textures/right.tga
+FILE textures/bottom.tga
+FILE textures/top.tga
+FILE textures/front.tga
+FILE textures/back.tga
+TILING CLAMP
+
+#Shaders: 3
+ID 0
+VS shaders/ObjectShaderVS.vs
+FS shaders/ObjectShaderFS.fs
+STATES 2
+STATE CULLING 
+STATE DEPTH_TEST
+ID 1
+VS shaders/SkyShaderVS.vs
+FS shaders/SkyShaderFS.fs
+STATES 1
+STATE DEPTH_TEST
+ID 2
+VS shaders/TerrainShaderVS.vs
+FS shaders/TerrainShaderFS.fs
+STATES 2
+STATE CULLING
+STATE DEPTH_TEST
