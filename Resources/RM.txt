@@ -11,7 +11,7 @@ ID 4
 FILE Models/woman2.nfg
 
 
-#2D Textures: 6
+#2D Textures: 7
 ID 0
 FILE textures/woman1.tga
 TILING REPEAT
@@ -30,7 +30,9 @@ TILING REPEAT
 ID 5
 FILE textures/b_yasuo.tga
 TILING REPEAT
-
+ID 6
+FILE textures/Grass.tga
+TILING REPEAT
 #Cube Textures: 1
 ID 2
 FILE textures/left.tga
